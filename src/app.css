@@ -3,15 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-	@font-face {
-		font-family: 'NHaasGroteskRg';
-		src: url('./fonts/NHaasGroteskTXPro-55Rg.ttf') format('truetype');
-	}
-
-	@font-face {
-		font-family: 'NHaasGroteskBld';
-		src: url('./fonts/NHaasGroteskTXPro-75Bd.ttf') format('truetype');
-	}
 
 	* {
 		box-sizing: border-box;
@@ -28,17 +19,4 @@
 		background-color: black;
 		color: white;
 	}
-
-	/* .glow {
-
-		animation: glow 5s ease-in-out infinite alternate;
-	}
-
-	@keyframes glow {
-		from {
-			text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
-		}
-		to {
-			text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
-		} */
 }

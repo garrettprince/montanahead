@@ -19,7 +19,7 @@
 		<header class="">
 			<Nav />
 		</header>
-		<main class="flex flex-col justify-evenly h-screen lg:h-4/6">
+		<main class="flex flex-col justify-evenly h-screen lg:h-3/5">
 			<Player />
 		</main>
 		<Footer />

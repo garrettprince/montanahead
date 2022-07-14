@@ -165,20 +165,20 @@
 	<!-- Gum Container -->
 	<div class="flex flex-col">
 		{#if currentSong === gum}
-			<p class="flex transform rotate-90 ml-3 mb-[-1rem] text-gray-400 font-nhaasbd">1</p>
-			<p class="flex ml-4 font-nhaasbd text-2xl transform rotate-90">
+			<p class="flex transform rotate-90 ml-3 mb-[-1rem] text-gray-400 font-extrabold">1</p>
+			<p class="flex ml-4 font-extrabold text-2xl transform rotate-90">
 				{gum}
 			</p>
 		{:else}
 			<p
 				on:click={gumClick}
-				class="flex transform rotate-90 ml-3 mb-[-1rem] text-gray-600/70 font-nhaasbd cursor-pointer"
+				class="flex transform rotate-90 ml-3 mb-[-1rem] text-gray-600/70 font-extrabold cursor-pointer"
 			>
 				1
 			</p>
 			<button
 				on:click={gumClick}
-				class="flex ml-4 font-nhaasbd text-2xl transform rotate-90 text-gray-600/70 cursor-pointer"
+				class="flex ml-4 font-extrabold text-2xl transform rotate-90 text-gray-600/70 cursor-pointer"
 			>
 				{gum}
 			</button>
@@ -188,20 +188,20 @@
 	<!-- Minutes Container -->
 	<div class="flex flex-col">
 		{#if currentSong === minutes}
-			<p class="flex font-nhaasbd text-2xl mr-[-0.7rem] mb-1 transform rotate-270">
+			<p class="flex font-extrabold text-2xl mr-[-0.7rem] mb-1 transform rotate-270">
 				{minutes}
 			</p>
-			<p class="flex transform rotate-270 ml-[0.95rem] text-gray-400 font-nhaasbd">4</p>
+			<p class="flex transform rotate-270 ml-[0.95rem] text-gray-400 font-extrabold">4</p>
 		{:else}
 			<p
 				on:click={minutesClick}
-				class="flex font-nhaasbd text-2xl mr-[-0.7rem] mb-1 transform rotate-270 text-gray-600/70 cursor-pointer"
+				class="flex font-extrabold text-2xl mr-[-0.7rem] mb-1 transform rotate-270 text-gray-600/70 cursor-pointer"
 			>
 				{minutes}
 			</p>
 			<button
 				on:click={minutesClick}
-				class="flex transform rotate-270 ml-[0.95rem] text-gray-600/70 font-nhaasbd cursor-pointer"
+				class="flex transform rotate-270 ml-[0.95rem] text-gray-600/70 font-extrabold cursor-pointer"
 				>4</button
 			>
 		{/if}
@@ -308,11 +308,6 @@
 			</svg>
 		</button>
 	</div>
-
-	<div id="waveform" />
-
-	<!-- Song Progress/Time Bar -->
-	<!-- <div class="flex bg-red-500 w-20 h-1" /> -->
 </main>
 
 <!-- Bottom Song Container -->
@@ -320,20 +315,20 @@
 	<!-- Swimming Lessons Container -->
 	<div class="flex flex-col">
 		{#if currentSong === swimmingLessons}
-			<p class="flex transform rotate-90 ml-[-5.5rem] mb-[-0.7rem] text-gray-400 font-nhaasbd">2</p>
-			<p class="flex ml-[-5.1rem] font-nhaasbd text-2xl transform rotate-90">
+			<p class="flex transform rotate-90 ml-[-5.5rem] mb-[-0.7rem] text-gray-400 font-extrabold">2</p>
+			<p class="flex ml-[-5.1rem] font-extrabold text-2xl transform rotate-90">
 				{swimmingLessons}
 			</p>
 		{:else}
 			<p
 				on:click={swimmingLessonsClick}
-				class="flex transform rotate-90 ml-[-5.5rem] mb-[-0.7rem] text-gray-600/70 font-nhaasbd cursor-pointer"
+				class="flex transform rotate-90 ml-[-5.5rem] mb-[-0.7rem] text-gray-600/70 font-extrabold cursor-pointer"
 			>
 				2
 			</p>
 			<button
 				on:click={swimmingLessonsClick}
-				class="flex ml-[-5.1rem] font-nhaasbd text-2xl transform rotate-90 text-gray-600/70 cursor-pointer"
+				class="flex ml-[-5.1rem] font-extrabold text-2xl transform rotate-90 text-gray-600/70 cursor-pointer"
 			>
 				{swimmingLessons}
 			</button>
@@ -343,20 +338,20 @@
 	<!-- The King Container -->
 	<div class="flex flex-col">
 		{#if currentSong === theKing}
-			<p class="flex font-nhaasbd text-2xl mr-[-1rem] mb-[-0.3rem] transform rotate-270">
+			<p class="flex font-extrabold text-2xl mr-[-1rem] mb-[-0.3rem] transform rotate-270">
 				{theKing}
 			</p>
-			<p class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-400 font-nhaasbd">3</p>
+			<p class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-400 font-extrabold">3</p>
 		{:else}
 			<button
 				on:click={theKingClick}
-				class="flex font-nhaasbd text-2xl mr-[-1rem] mb-[-0.3rem] transform rotate-270 text-gray-600/70 cursor-pointer"
+				class="flex font-extrabold text-2xl mr-[-1rem] mb-[-0.3rem] transform rotate-270 text-gray-600/70 cursor-pointer"
 			>
 				{theKing}
 			</button>
 			<p
 				on:click={theKingClick}
-				class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-600/70 font-nhaasbd cursor-pointer"
+				class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-600/70 font-extrabold c∫ursor-pointer"
 			>
 				3
 			</p>
