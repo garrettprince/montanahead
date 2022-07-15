@@ -2,7 +2,7 @@
 	import Logo from './Logo.svelte';
 </script>
 
-<nav class="flex justify-between">
+<nav class="flex justify-between mt-5">
 	<Logo />
 	<div class="flex-col my-6 mr-8">
 		<p class="flex justify-center font-extrabold text-xl font-nhaasbd">MONTANAHEAD</p>
