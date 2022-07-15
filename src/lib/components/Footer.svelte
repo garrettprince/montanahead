@@ -2,7 +2,7 @@
 </script>
 
 <main class="flex">
-	<div class="flex-col justify-center mx-auto my-6 mb-8 ">
+	<div class="flex-col justify-center mx-auto my-6 mb-12 ">
 		<p class="flex justify-center font-normal text-sm text-gray-600">
 			Interested in producing?
 		</p>
