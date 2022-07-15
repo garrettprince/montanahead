@@ -351,7 +351,7 @@
 			</button>
 			<p
 				on:click={theKingClick}
-				class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-600/70 font-extrabold c∫ursor-pointer"
+				class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-600/70 font-extrabold cursor-pointer"
 			>
 				3
 			</p>
