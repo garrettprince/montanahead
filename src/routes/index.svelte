@@ -3,7 +3,7 @@
 	import Nav from '../lib/components/Nav.svelte';
 	import Player from '../lib/components/Player.svelte';
 	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 
 	let ready = false;
 	onMount(() => {
@@ -13,7 +13,7 @@
 
 {#if ready}
 	<body
-		in:fade={{ delay: 500, duration: 2000 }}
+		transition:fade={{ delay: 500, duration: 2000 }}
 		class="flex flex-col justify-center h-screen max-w-3xl mx-auto"
 	>
 		<header class="">

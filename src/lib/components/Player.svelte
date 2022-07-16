@@ -24,7 +24,7 @@
 
 	//
 	const gumAudio = new Howl({
-		src: ['../../static/audio/Gum.mp3'],
+		src: ['../../../audio/Gum.mp3'],
 		loop: false,
 		html5: true,
 		volume: 0.7,
@@ -34,7 +34,7 @@
 	});
 
 	const swimmingLessonsAudio = new Howl({
-		src: ['../../static/audio/SwimmingLessons.mp3'],
+		src: ['../../../audio/SwimmingLessons.mp3'],
 		loop: false,
 		html5: true,
 		volume: 0.9,
@@ -44,7 +44,7 @@
 	});
 
 	const theKingAudio = new Howl({
-		src: ['../../static/audio/TheKing.mp3'],
+		src: ['../../../audio/TheKing.mp3'],
 		loop: false,
 		html5: true,
 		volume: 0.9,
@@ -54,7 +54,7 @@
 	});
 
 	const minutesAudio = new Howl({
-		src: ['../../static/audio/Minutes.mp3'],
+		src: ['../../../audio/Minutes.mp3'],
 		loop: false,
 		html5: true,
 		volume: 1.0,
