@@ -24,7 +24,7 @@
 
 	//
 	const gumAudio = new Howl({
-		src: ['../../../audio/Gum.mp3'],
+		src: ['https://res.cloudinary.com/dvwbpgk6p/video/upload/v1658207117/audio/Gum_i7w1lx.mp3'],
 		loop: false,
 		html5: true,
 		volume: 0.7,
@@ -34,7 +34,7 @@
 	});
 
 	const swimmingLessonsAudio = new Howl({
-		src: ['../../../audio/SwimmingLessons.mp3'],
+		src: ['../../static/audio/SwimmingLessons.mp3'],
 		loop: false,
 		html5: true,
 		volume: 0.9,
@@ -44,7 +44,7 @@
 	});
 
 	const theKingAudio = new Howl({
-		src: ['../../../audio/TheKing.mp3'],
+		src: ['../../static/audio/TheKing.mp3'],
 		loop: false,
 		html5: true,
 		volume: 0.9,
@@ -54,7 +54,7 @@
 	});
 
 	const minutesAudio = new Howl({
-		src: ['../../../audio/Minutes.mp3'],
+		src: ['../../static/audio/Minutes.mp3'],
 		loop: false,
 		html5: true,
 		volume: 1.0,
@@ -315,7 +315,9 @@
 	<!-- Swimming Lessons Container -->
 	<div class="flex flex-col">
 		{#if currentSong === swimmingLessons}
-			<p class="flex transform rotate-90 ml-[-5.5rem] mb-[-0.7rem] text-gray-400 font-extrabold">2</p>
+			<p class="flex transform rotate-90 ml-[-5.5rem] mb-[-0.7rem] text-gray-400 font-extrabold">
+				2
+			</p>
 			<p class="flex ml-[-5.1rem] font-extrabold text-2xl transform rotate-90">
 				{swimmingLessons}
 			</p>
@@ -341,7 +343,9 @@
 			<p class="flex font-extrabold text-2xl mr-[-1rem] mb-[-0.3rem] transform rotate-270">
 				{theKing}
 			</p>
-			<p class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-400 font-extrabold">3</p>
+			<p class="flex transform rotate-270 ml-[0.5rem] mr-[-0.8rem] text-gray-400 font-extrabold">
+				3
+			</p>
 		{:else}
 			<button
 				on:click={theKingClick}

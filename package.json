@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@aws-sdk/client-cloudfront": "^3.131.0",
 		"howler": "^2.2.3"
 	}
 }
