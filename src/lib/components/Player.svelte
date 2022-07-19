@@ -34,7 +34,9 @@
 	});
 
 	const swimmingLessonsAudio = new Howl({
-		src: ['../../static/audio/SwimmingLessons.mp3'],
+		src: [
+			'https://res.cloudinary.com/dvwbpgk6p/video/upload/v1658207123/audio/Swimming_Lessons_s5mi4b.mp3'
+		],
 		loop: false,
 		html5: true,
 		volume: 0.9,
@@ -44,7 +46,9 @@
 	});
 
 	const theKingAudio = new Howl({
-		src: ['../../static/audio/TheKing.mp3'],
+		src: [
+			'https://res.cloudinary.com/dvwbpgk6p/video/upload/v1658207117/audio/The_King_dwsxpy.mp3'
+		],
 		loop: false,
 		html5: true,
 		volume: 0.9,
@@ -54,7 +58,7 @@
 	});
 
 	const minutesAudio = new Howl({
-		src: ['../../static/audio/Minutes.mp3'],
+		src: ['https://res.cloudinary.com/dvwbpgk6p/video/upload/v1658207132/audio/Minutes_vxcc4f.mp3'],
 		loop: false,
 		html5: true,
 		volume: 1.0,
