@@ -30,6 +30,7 @@
 		volume: 0.7,
 		onend: function () {
 			playing = false;
+			nextClick();
 		}
 	});
 
@@ -42,6 +43,7 @@
 		volume: 0.9,
 		onend: function () {
 			playing = false;
+			nextClick();
 		}
 	});
 
@@ -54,6 +56,7 @@
 		volume: 0.9,
 		onend: function () {
 			playing = false;
+			nextClick();
 		}
 	});
 
@@ -64,6 +67,7 @@
 		volume: 1.0,
 		onend: function () {
 			playing = false;
+			nextClick();
 		}
 	});
 
