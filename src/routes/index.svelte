@@ -14,7 +14,7 @@
 {#if ready}
 	<body
 		transition:fade={{ delay: 500, duration: 2000 }}
-		class="flex flex-col justify-center h-screen max-w-3xl mx-auto"
+		class="flex flex-col justify-center h-screen max-w-3xl mx-auto overflow-scroll"
 	>
 		<header class="">
 			<Nav />
